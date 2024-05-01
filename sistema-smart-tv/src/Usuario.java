@@ -22,6 +22,7 @@ public class Usuario {
         System.out.println("Digite canal: ");
         int novoCanal = scanner.nextInt();
         smartTv.canal = novoCanal;
+        scanner.close();
 
         System.out.println("Canal: " + smartTv.canal);
 
